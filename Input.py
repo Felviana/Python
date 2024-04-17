@@ -1,0 +1,6 @@
+nome = str(input('Digite o seu nome:'))
+idade = int(input('Digite a sua idade:'))
+print('Seja bem vindo(a)', nome, ',fico muito feliz de ter você por aqui')
+print('Seja bem vindo(a) {0},fico muito feliz de ter você por aqui, e feliz por ter {1}anos'.format(nome, idade ))
+print(f'Seja bem vindo(a) {nome}, fico muito feliz por ter você aqui, e feliz por você ter {idade} anos')
+print(f'''Seja bem vindo(a) {nome}, fico muito feliz por ter você aqui \nfeliz por você ter {idade} anos''')

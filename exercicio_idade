@@ -1,0 +1,8 @@
+nome = str(input('Digite seu nome completo:'))
+ano = int(input("digite o seu ano de nascimento"))
+idade = 2024-ano
+nome_capitalize = nome.title()
+Centenario  = ano+100
+print(f'''Seja bem vindo(a) a sua calculadora {nome_capitalize}
+\nVocê atualmente tem a {idade} anos e em {Centenario} você completará 100 anos''')
+
